@@ -27,19 +27,19 @@ MD5sum: ed520e2887f755ba235519cee9950856
 Depends: firmware, mobilesubstrate
 Conflicts: org.thebigboss.locationchangerx
 
-Package: com.kidsauto.sslkillswitch
+Package: com.isecpartners.nabla.sslkillswitch
 Name: SSLKillSwitch
+Version: 0.1
 Architecture: iphoneos-arm
-Version: 2.0.11
-Description: Blackbox tool to disable SSL certificate validation - including certificate pinning - within iOS and OS X Apps.
-Maintainer: Alban Diquet <nabla.c0d3@gmail.com>
-Author: Alban Diquet <nabla.c0d3@gmail.com>
+Description: An awesome MobileSubstrate tweak to disable SSL certificate validation!
+Maintainer: Alban Diquet <alban@isecpartners.com>
+Author: Alban Diquet <alban@isecpartners.com>
 Section: Tweaks
-Filename: ./Debs/SSLKillSwitch8.deb
-Size: 10590
-MD5sum: baa0ed9a7b53a65e946cb5d6089ede12
+Filename: ./Debs/isecsslkillswitch.deb
+Size: 8648
+MD5sum: 6d32d5526df049ef59988ebec02d75d2
 Depends: mobilesubstrate, preferenceloader
-Conflicts: com.nablac0d3.sslkillswitch,com.nablac0d3.sslkillswitch2
+Conflicts: com.nablac0d3.sslkillswitch,com.nablac0d3.sslkillswitch2,com.kidsauto.sslkillswitch
 
 Package: com.ryleyangus.libertylite
 Name: Liberty Lite
