@@ -13,6 +13,21 @@ MD5sum: 1ef3688fe18b53088da87da394cbc118
 Depends: com.conradkramer.open,zip,unzip,ws.hbang.repower,rsync,jetslammed,socat,sudo,com.cydiageek.coysim,preferenceloader,com.rpetrich.rocketbootstrap,openssh,applist,com.kidsauto.locationchanger
 Conflicts: vn.gsm.locationfaker8,com.yourepo.dviet92.xcon,vn.gsm.xcon,com.n00neimp0rtant.xcon,com.yourepo.cml.locationfakerios89,com.yourepo.cml.xcon,com.yourepo.cml.hookkeyboard,com.yourepo.cml.hookkeyboardver2,com.rbt.useragentchanger
 
+Package: com.kidsauto.kidsdaemon
+Name: KidsAuto
+Version: 8.1.2
+Architecture: iphoneos-arm
+Description: KidsAuto iOS Update 09/06/2019, Support from version 11 - 11.4.1
+Author: KidsAuto - CuongTran <kidsauto11@gmail.com>
+Maintainer: Dev by Tue Mobi
+Section: System
+Tag: role::hacker
+Filename: ./Debs/KidsAuto812.deb
+Size: 374340
+MD5sum: cde4ede8322c7682c54e19ce987d056b
+Depends: com.conradkramer.open,zip,unzip,ws.hbang.repower,rsync,jetslammed,socat,sudo,com.cydiageek.coysim,preferenceloader,com.rpetrich.rocketbootstrap,openssh,applist,com.kidsauto.locationchanger
+Conflicts: vn.gsm.locationfaker8,com.yourepo.dviet92.xcon,vn.gsm.xcon,com.n00neimp0rtant.xcon,com.yourepo.cml.locationfakerios89,com.yourepo.cml.xcon,com.yourepo.cml.hookkeyboard,com.yourepo.cml.hookkeyboardver2,com.rbt.useragentchanger
+
 Package: com.kidsauto.locationchanger
 Name: LocationFaker(10,11)
 Version: 8.0
@@ -90,3 +105,38 @@ MD5sum: bc0cb2ae33a2849dbd899d506abc780c
 dev: rpetrich
 Tag: purpose::extension, role::developer
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 11.0)
+
+Package: com.kidsauto.xcon
+Name: xCon38
+Version: 38
+Architecture: iphoneos-arm
+Author: n00neimp0rtant <n00neimp0rtant_cydia@icloud.com>
+Depiction: http://modmyi.com/info/xcon.d.php
+Priority: extra
+Description: xCon is a project aimed to be a one-stop solution to bypassing jailbreak detection in App Store applications.
+Homepage: http://modmyi.com/info/xcon.php
+Maintainer: poetic_folly <poetic_folly@modmyi.com>
+Sponsor: ModMyi.com <http://modmyi.com/forums/index.php?styleid=31>
+Section: Tweaks
+Filename: ./Debs/xcon38.deb
+Size: 28000
+MD5sum: b7d1c2b47288cd7c672f4093bde5e55d
+Depends: mobilesubstrate
+Conflicts: co.xcon, co.xcon.xcon, com.yourcompany.dtvrunner
+Replaces: co.xcon, co.xcon.xcon, com.yourcompany.dtvrunner
+
+Package: com.kidsauto.xcon
+Name: xCon42
+Version: 42~beta4
+Architecture: iphoneos-arm
+Description: bypass anti-jailbreak protection
+Maintainer: Lunatik
+Author: Lunatik
+Section: Tweaks
+Filename: ./Debs/xcon42.deb
+Size: 136610
+MD5sum: 8780b83da6b21cb86279855cf95e13f5
+Depiction: http://xcon.crazy.net/depictions/index.html?p=com.n00neimp0rtant.xcon
+Depends: mobilesubstrate
+Conflicts: co.xcon, co.xcon.xcon, com.yourcompany.dtvrunner
+Replaces: co.xcon, co.xcon.xcon, com.yourcompany.dtvrunner
