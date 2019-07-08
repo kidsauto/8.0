@@ -7,6 +7,6 @@ Architectures: iphoneos-arm
 Components: main
 Description: KidsAuto iOS for Device Model 10.x - 11.4.1
 MD5Sum:
- 93913f0d54c1eb82be775ee97ec4df7a 7828 Packages
- 6fbea687c2caaba04fed5e70c0ef8537 2465 Packages.bz2
- 3aedb65094fc9f5156b00ba82c9cf80b 2167 Packages.gz
+ a0d6a3c900e04dec45f466d540ab26cb 8714 Packages
+ b6ef4be3fed13639ba1f67d5e9268a49 2585 Packages.bz2
+ b36b0292316794bad23f2603295cbdf7 2290 Packages.gz
