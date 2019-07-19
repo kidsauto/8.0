@@ -196,3 +196,16 @@ Filename: ./Debs/JailbreakByPass.deb
 Size: 12710
 MD5sum: 6d39e72006fe72df7277863bd3dd4bf9
 Depends: mobilesubstrate,com.kidsauto.kidsdaemon
+
+Package: com.kidsauto.jailbreakbypass
+Name: JailBreakByPass 1.0.9
+Version: 1.0.9
+Architecture: iphoneos-arm
+Description: Tweak Support for KidsAuto 8!
+Maintainer: Dev by TueMobi
+Author: KidsAuto iOS (https://www.facebook.com/kidsauto91)
+Section: Tweaks
+Filename: ./Debs/JailbreakByPass109.deb
+Size: 8834
+MD5sum: 7cad10e48110ea6ac38143a96897bc58
+Depends: mobilesubstrate,com.kidsauto.kidsdaemon
