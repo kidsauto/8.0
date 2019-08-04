@@ -29,21 +29,6 @@ Depends: com.conradkramer.open,zip,unzip,ws.hbang.repower,rsync,jetslammed,socat
 Conflicts: vn.gsm.locationfaker8,com.yourepo.dviet92.xcon,vn.gsm.xcon,com.n00neimp0rtant.xcon,com.yourepo.cml.locationfakerios89,com.yourepo.cml.xcon,com.yourepo.cml.hookkeyboard,com.yourepo.cml.hookkeyboardver2,com.rbt.useragentchanger
 
 Package: com.kidsauto.kidsdaemon
-Name: KidsAuto
-Version: 8.1.3
-Architecture: iphoneos-arm
-Description: KidsAuto iOS Update 08/07/2019, Support from version 11 - 12.1.2 Unc0ver Jailbreak
-Author: KidsAuto - https://www.facebook.com/groups/1356112074493442/
-Maintainer: Dev by Tuệ Mobi
-Section: System
-Tag: role::hacker
-Filename: ./Debs/KidsAuto813.deb
-Size: 637166
-MD5sum: 06ae74ef3b11e09d1d2a66a3dac91072
-Depends: com.conradkramer.open,zip,unzip,ws.hbang.repower,rsync,jetslammed,socat,sudo,com.cydiageek.coysim,preferenceloader,com.rpetrich.rocketbootstrap,openssh,applist,com.kidsauto.locationchanger,com.kidsauto.jailbreakbypass
-Conflicts: vn.gsm.locationfaker8,com.yourepo.dviet92.xcon,vn.gsm.xcon,com.n00neimp0rtant.xcon,com.yourepo.cml.locationfakerios89,com.yourepo.cml.xcon,com.yourepo.cml.hookkeyboard,com.yourepo.cml.hookkeyboardver2,com.rbt.useragentchanger
-
-Package: com.kidsauto.kidsdaemon
 Name: KidsAuto 8.2
 Version: 8.2
 Architecture: iphoneos-arm
@@ -185,19 +170,6 @@ Conflicts: co.xcon, co.xcon.xcon, com.yourcompany.dtvrunner
 Replaces: co.xcon, co.xcon.xcon, com.yourcompany.dtvrunner
 
 Package: com.kidsauto.jailbreakbypass
-Name: JailBreakByPass
-Version: 1.1
-Architecture: iphoneos-arm
-Description: Tweak Support for KidsAuto 8!
-Maintainer: Dev by TueMobi
-Author: KidsAuto iOS (https://www.facebook.com/kidsauto91)
-Section: Tweaks
-Filename: ./Debs/JailbreakByPass.deb
-Size: 12710
-MD5sum: 6d39e72006fe72df7277863bd3dd4bf9
-Depends: mobilesubstrate,com.kidsauto.kidsdaemon
-
-Package: com.kidsauto.jailbreakbypass
 Name: JailBreakByPass 1.0.9
 Version: 1.0.9
 Architecture: iphoneos-arm
@@ -208,4 +180,17 @@ Section: Tweaks
 Filename: ./Debs/JailbreakByPass109.deb
 Size: 8834
 MD5sum: 7cad10e48110ea6ac38143a96897bc58
+Depends: mobilesubstrate,com.kidsauto.kidsdaemon
+
+Package: com.kidsauto.jailbreakbypass
+Name: JailBreakByPass 1.1.9
+Version: 1.1.9
+Architecture: iphoneos-arm
+Description: Tweak Support for KidsAuto 8!
+Maintainer: Dev by TueMobi
+Author: KidsAuto iOS (https://www.facebook.com/kidsauto91)
+Section: Tweaks
+Filename: ./Debs/JailbreakByPass119.deb
+Size: 13812
+MD5sum: 453873c032eaa73be06ef34f952a9977
 Depends: mobilesubstrate,com.kidsauto.kidsdaemon
