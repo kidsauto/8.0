@@ -86,6 +86,21 @@ MD5sum: 94702173d002644394b5e245a2479963
 Depends: mobilesubstrate,preferenceloader,applist,firmware (>= 11.0)
 Conflicts: com.ryleyangus.liberty
 
+Package: com.ryleyangus.libertylite
+Name: Liberty Lite (Beta)
+Architecture: iphoneos-arm
+Version: 0.2.11
+Description: A (lite) general purpose jailbreak detection bypass patch. Use the Liberty Lite entry in the Settings app to block (most) apps from detecting your jailbreak. Disabling Substrate/Substitute is not supported. 32-bit support is currently disabled.
+Maintainer: Ryley Angus
+Author: Ryley Angus
+Section: Tweaks
+Icon: file:///Library/PreferenceBundles/LibertyPref.bundle/LibertyPref.png
+Filename: ./Debs/LibertyLite0211.deb
+Size: 53542
+MD5sum: 4f1f62459646a035ad95a1bce4de055e
+Depends: mobilesubstrate,preferenceloader,applist,firmware (>= 11.0)
+Conflicts: com.ryleyangus.liberty, com.ryleyangus.libertylite
+
 Package: com.kidsauto.xcon
 Name: xCon38
 Version: 38
@@ -190,7 +205,7 @@ Description: Tweak Support for KidsAuto 8!
 Maintainer: Dev by TueMobi
 Author: KidsAuto iOS (https://www.facebook.com/kidsauto91)
 Section: Tweaks
-Filename: ./Debs/JailbreakByPass119.deb
+Filename: ./Debs/JailbreakBypass119.deb
 Size: 13812
 MD5sum: 453873c032eaa73be06ef34f952a9977
 Depends: mobilesubstrate,com.kidsauto.kidsdaemon
