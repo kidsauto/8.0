@@ -73,20 +73,6 @@ MD5sum: ed520e2887f755ba235519cee9950856
 Depends: firmware, mobilesubstrate
 Conflicts: org.thebigboss.locationchangerx
 
-Package: com.isecpartners.nabla.sslkillswitch
-Name: SSLKillSwitch
-Version: 0.1
-Architecture: iphoneos-arm
-Description: An awesome MobileSubstrate tweak to disable SSL certificate validation!
-Maintainer: Alban Diquet <alban@isecpartners.com>
-Author: Alban Diquet <alban@isecpartners.com>
-Section: Tweaks
-Filename: ./Debs/isecsslkillswitch.deb
-Size: 8648
-MD5sum: 6d32d5526df049ef59988ebec02d75d2
-Depends: mobilesubstrate, preferenceloader
-Conflicts: com.nablac0d3.sslkillswitch,com.nablac0d3.sslkillswitch2,com.kidsauto.sslkillswitch
-
 Package: com.ryleyangus.libertylite
 Name: Liberty Lite
 Architecture: iphoneos-arm
@@ -225,3 +211,17 @@ Filename: ./Debs/JailbreakBypass119.deb
 Size: 13812
 MD5sum: 453873c032eaa73be06ef34f952a9977
 Depends: mobilesubstrate,com.kidsauto.kidsdaemon
+
+Package: com.kidsauto.jailbreakbypass
+Name: JailBreakByPass 1.2
+Version: 1.2
+Architecture: iphoneos-arm
+Description: Tweak Support for KidsAuto 8!
+Maintainer: Dev by TueMobi
+Author: KidsAuto iOS (https://www.facebook.com/kidsauto91)
+Section: Tweaks
+Filename: ./Debs/JailBreakByPass12.deb
+Size: 18924
+MD5sum: acc0fd9531e80c95e3d1983741d509c8
+Depends: mobilesubstrate,com.kidsauto.kidsdaemon
+Conflicts: com.nablac0d3.sslkillswitch,com.nablac0d3.sslkillswitch2,com.kidsauto.sslkillswitch,com.isecpartners.nabla.sslkillswitch
