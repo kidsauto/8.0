@@ -5,8 +5,8 @@ Version: 1.0
 Codename: ios
 Architectures: iphoneos-arm
 Components: main
-Description: KidsAuto iOS for Device Model 10.x - 12.2
+Description: KidsAuto iOS for Device Model 10.x - 12.2 & 12.4
 MD5Sum:
- 0c3d24e4b6568a667bb1548efd3fc81c 9917 Packages
- e78bc2995d6f102351692f60c5b704ed 2416 Packages.bz2
- 5f6447bda2eb0cd28fc7fc1f18e9ca28 2059 Packages.gz
+ ba309282e12a18e1439c99af65d58f6d 10449 Packages
+ d21d3236ad0697b10eb1e9cb82236ff9 2863 Packages.bz2
+ 791224bc02f5a4988951d2fd7dcdc047 2462 Packages.gz

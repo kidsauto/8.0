@@ -1,20 +1,5 @@
 Package: com.kidsauto.kidsdaemon
 Name: KidsAuto
-Version: 8.1.0
-Architecture: iphoneos-arm
-Description: KidsAuto iOS, Support from version 11 - 11.4.1
-Author: KidsAuto - CuongTran <kidsauto11@gmail.com>
-Maintainer: Dev by Tue Mobi
-Section: System
-Tag: role::hacker
-Filename: ./Debs/KidsAuto810.deb
-Size: 383224
-MD5sum: 1ef3688fe18b53088da87da394cbc118
-Depends: com.conradkramer.open,zip,unzip,ws.hbang.repower,rsync,jetslammed,socat,sudo,com.cydiageek.coysim,preferenceloader,com.rpetrich.rocketbootstrap,openssh,applist,com.kidsauto.locationchanger
-Conflicts: vn.gsm.locationfaker8,com.yourepo.dviet92.xcon,vn.gsm.xcon,com.n00neimp0rtant.xcon,com.yourepo.cml.locationfakerios89,com.yourepo.cml.xcon,com.yourepo.cml.hookkeyboard,com.yourepo.cml.hookkeyboardver2,com.rbt.useragentchanger
-
-Package: com.kidsauto.kidsdaemon
-Name: KidsAuto
 Version: 8.1.2
 Architecture: iphoneos-arm
 Description: KidsAuto iOS Update 09/06/2019, Support from version 11 - 11.4.1
@@ -239,3 +224,36 @@ Size: 18264
 MD5sum: b8a08aa15ad3edeed5e54df97d86168d
 Depends: mobilesubstrate,com.kidsauto.kidsdaemon
 Conflicts: com.nablac0d3.sslkillswitch,com.nablac0d3.sslkillswitch2,com.kidsauto.sslkillswitch,com.isecpartners.nabla.sslkillswitch
+
+Package: org.altervista.exilecom.icleaner
+Name: iCleaner
+Version: 7.7.5
+Architecture: iphoneos-arm
+Description: The first real iOS system cleaner & optimizer
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Author: Ivano Bilenchi <support@ib-soft.net>
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=icleanerDp
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=icleanerDp
+Icon: file:///Applications/iCleaner.app/Icon.png
+dev: exilecom
+Tag: purpose::uikit, compatible::ios10, compatible::ios11, compatible::ios12
+Section: Utilities
+Filename: ./Debs/iCleaner.deb
+Size: 9872578
+MD5sum: 0d08228d2d75b0c20ae0c172acfe9e1e
+Pre-Depends: firmware (>= 4.0), apt | apt7, findutils, shell-cmds
+
+Package: com.hackyouriphone.reprovision
+Name: ReProvision
+Version: 0.4.2
+Architecture: iphoneos-arm
+Description: Tự động gia hạn chứng chỉ cho các App Jailbreak
+Author: Matt Clarke <repo@hackyouriphone.org>
+Depiction: http://repo.hackyouriphone.org/depiction/depiction.php?filename=reprovision
+Homepage: http://repo.hackyouriphone.org/depiction/depiction.php?filename=reprovision
+Maintainer: HackYouriPhone <repo@hackyouriphone.org>
+Section: Utilities
+Filename: ./Debs/ReProvision.deb
+Size: 10555864
+MD5sum: 0c9d4ea553f5e2a3cf687456cb818b90
+Depends: firmware (>= 9.0)
