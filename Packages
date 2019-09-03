@@ -240,11 +240,32 @@ MD5sum: b8a08aa15ad3edeed5e54df97d86168d
 Depends: mobilesubstrate,com.kidsauto.kidsdaemon
 Conflicts: com.nablac0d3.sslkillswitch,com.nablac0d3.sslkillswitch2,com.kidsauto.sslkillswitch,com.isecpartners.nabla.sslkillswitch
 
-Package: org.altervista.exilecom.icleaner
+Package: com.matchstic.reprovision
+Name: ReProvision
+Version: 0.4.4
+Architecture: iphoneos-arm
+Description: Tự động gia hạn chứng chỉ cho các App Jailbreak
+Priority: optional
+Replaces: com.matchstic.Extender-Installer
+Provides: com.matchstic.Extender-Installer
+Author: Matt Clarke <matt@incendo.ws>
+dev: Matt Clarke <matt@incendo.ws>
+Maintainer: Matt Clarke <matt@incendo.ws>
+Homepage: https://github.com/Matchstic/Extender-Installer
+Depiction: http://incendo.ws/repo/depictions/com.matchstic.reprovision.html
+Icon: file:///Applications/ReProvision.app/AppIcon60x60@2x.png
+Section: Utilities
+Filename: ./Debs/ReProvision044.deb
+Size: 10669494
+MD5sum: 81fc2432c268f9eaf4f4311ff17b2775
+Depends: firmware (>= 9.0)
+Conflicts: com.hackyouriphone.reprovision
+
+Package: com.kidsauto.icleaner
 Name: iCleaner
 Version: 7.7.5
 Architecture: iphoneos-arm
-Description: The first real iOS system cleaner & optimizer
+Description: Dọn rác và tối ưu hệ thống iPhone Jailbreak
 Maintainer: BigBoss <bigboss@thebigboss.org>
 Author: Ivano Bilenchi <support@ib-soft.net>
 Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=icleanerDp
@@ -253,22 +274,21 @@ Icon: file:///Applications/iCleaner.app/Icon.png
 dev: exilecom
 Tag: purpose::uikit, compatible::ios10, compatible::ios11, compatible::ios12
 Section: Utilities
-Filename: ./Debs/iCleaner.deb
-Size: 9872578
-MD5sum: 0d08228d2d75b0c20ae0c172acfe9e1e
+Filename: ./Debs/icleaner775.deb
+Size: 9872624
+MD5sum: e55286a7f39503142579f145fe60a4ed
 Pre-Depends: firmware (>= 4.0), apt | apt7, findutils, shell-cmds
+Conflicts: org.altervista.exilecom.icleaner
 
-Package: com.hackyouriphone.reprovision
-Name: ReProvision
-Version: 0.4.2
+Package: com.180.antirevoke
+Name: AntiRevoke
+Version: 0.0.1
 Architecture: iphoneos-arm
-Description: Tự động gia hạn chứng chỉ cho các App Jailbreak
-Author: Matt Clarke <repo@hackyouriphone.org>
-Depiction: http://repo.hackyouriphone.org/depiction/depiction.php?filename=reprovision
-Homepage: http://repo.hackyouriphone.org/depiction/depiction.php?filename=reprovision
-Maintainer: HackYouriPhone <repo@hackyouriphone.org>
+Author: stem grade
+Description: Ngăn chặn Apple thu hồi chứng chỉ (Có thể ảnh hưởng tốc độ mạng)
+Maintainer: stem grade
 Section: Utilities
-Filename: ./Debs/ReProvision.deb
-Size: 10555864
-MD5sum: 0c9d4ea553f5e2a3cf687456cb818b90
-Depends: firmware (>= 9.0)
+Filename: ./Debs/Antirevoke_0.0.1.deb
+Size: 32782
+MD5sum: d17d291539ee64034518e9412f1b0b01
+Depends: mobilesubstrate
