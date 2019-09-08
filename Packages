@@ -292,3 +292,17 @@ Filename: ./Debs/Antirevoke_0.0.1.deb
 Size: 32782
 MD5sum: d17d291539ee64034518e9412f1b0b01
 Depends: mobilesubstrate
+
+Package: com.kidsauto.jailprotect
+Name: JailProtect 0.0.4
+Version: 0.0~beta4a
+Architecture: iphoneos-arm
+Description: Ngăn chặn phát hiện Jailbreak, tương tự Liberty Lite
+Homepage: http://twitter.com/ijulioverne
+Maintainer: Julio
+Author: julioverne
+Section: Tweaks
+Filename: ./Debs/JailProtect.deb
+Size: 53126
+MD5sum: 97aebf5fe2d5689858eb5bb6e1a2ddcf
+Depends: mobilesubstrate, preferenceloader
