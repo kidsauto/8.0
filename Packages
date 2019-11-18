@@ -272,26 +272,19 @@ MD5sum: b8a08aa15ad3edeed5e54df97d86168d
 Depends: mobilesubstrate,com.kidsauto.kidsdaemon
 Conflicts: com.nablac0d3.sslkillswitch,com.nablac0d3.sslkillswitch2,com.kidsauto.sslkillswitch,com.isecpartners.nabla.sslkillswitch
 
-Package: com.matchstic.reprovision
-Name: ReProvision
-Version: 0.4.4
+Package: com.kidsauto.kidsbypass
+Name: KidsByPass
+Version: 2.17
 Architecture: iphoneos-arm
-Description: Tự động gia hạn chứng chỉ cho các App Jailbreak
-Priority: optional
-Replaces: com.matchstic.Extender-Installer
-Provides: com.matchstic.Extender-Installer
-Author: Matt Clarke <matt@incendo.ws>
-dev: Matt Clarke <matt@incendo.ws>
-Maintainer: Matt Clarke <matt@incendo.ws>
-Homepage: https://github.com/Matchstic/Extender-Installer
-Depiction: http://incendo.ws/repo/depictions/com.matchstic.reprovision.html
-Icon: file:///Applications/ReProvision.app/AppIcon60x60@2x.png
-Section: Utilities
-Filename: ./Debs/ReProvision044.deb
-Size: 10669494
-MD5sum: 81fc2432c268f9eaf4f4311ff17b2775
-Depends: firmware (>= 9.0)
-Conflicts: com.hackyouriphone.reprovision
+Description: By Pass Jailbreak Detect
+Maintainer: Internet
+Author: Internet
+Section: Tweaks
+Filename: ./Debs/KidsByPass2.17.deb
+Size: 185508
+MD5sum: 0cc7919af8c8275c0c96898a5e90fff0
+Depends: mobilesubstrate, applist, preferenceloader, com.rpetrich.rocketbootstrap, ws.hbang.common, com.kidsauto.kidsdaemon (>= 8.3)
+Conflicts: com.ryleyangus.liberty, com.ryleyangus.libertylite, com.kidsauto.xcon, com.kidsauto.jailprotect, com.kidsauto.kidsdaemon (<< 8.3)
 
 Package: com.kidsauto.icleaner
 Name: iCleaner
