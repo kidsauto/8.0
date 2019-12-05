@@ -328,3 +328,16 @@ Filename: ./Debs/Shadow2.0.2.deb
 Size: 250068
 MD5sum: 247488a393bb3504b209a1d5696b95a5
 Depends: firmware (>=8.0), mobilesubstrate, ws.hbang.common, applist, preferenceloader
+
+Package: com.rpgfarm.a-bypass
+Name: A-Bypass
+Version: 1.0.4
+Architecture: iphoneos-arm
+Description: Chặn phát hiện Jailbreak - Root!
+Maintainer: Baw Appie <pp121324@gmail.com>
+Author: Baw Appie <pp121324@gmail.com>
+Section: Tweaks
+Filename: ./Debs/A-BypassJailbreak.deb
+Size: 48878
+MD5sum: 87cb38d2722566e407b2ae00f1225f90
+Depends: mobilesubstrate, applist
