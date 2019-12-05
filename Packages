@@ -1,49 +1,4 @@
 Package: com.kidsauto.kidsdaemon
-Name: KidsAuto
-Version: 8.1.0
-Architecture: iphoneos-arm
-Description: KidsAuto iOS, Support from version 11 - 11.4.1
-Author: KidsAuto - CuongTran <kidsauto11@gmail.com>
-Maintainer: Dev by Tue Mobi
-Section: System
-Tag: role::hacker
-Filename: ./Debs/KidsAuto810.deb
-Size: 383224
-MD5sum: 1ef3688fe18b53088da87da394cbc118
-Depends: com.conradkramer.open,zip,unzip,ws.hbang.repower,rsync,jetslammed,socat,sudo,com.cydiageek.coysim,preferenceloader,com.rpetrich.rocketbootstrap,openssh,applist,com.kidsauto.locationchanger
-Conflicts: vn.gsm.locationfaker8,com.yourepo.dviet92.xcon,vn.gsm.xcon,com.n00neimp0rtant.xcon,com.yourepo.cml.locationfakerios89,com.yourepo.cml.xcon,com.yourepo.cml.hookkeyboard,com.yourepo.cml.hookkeyboardver2,com.rbt.useragentchanger
-
-Package: com.kidsauto.kidsdaemon
-Name: KidsAuto
-Version: 8.1.2
-Architecture: iphoneos-arm
-Description: KidsAuto iOS Update 09/06/2019, Support from version 11 - 11.4.1
-Author: KidsAuto - CuongTran <kidsauto11@gmail.com>
-Maintainer: Dev by Tue Mobi
-Section: System
-Tag: role::hacker
-Filename: ./Debs/KidsAuto812.deb
-Size: 374340
-MD5sum: cde4ede8322c7682c54e19ce987d056b
-Depends: com.conradkramer.open,zip,unzip,ws.hbang.repower,rsync,jetslammed,socat,sudo,com.cydiageek.coysim,preferenceloader,com.rpetrich.rocketbootstrap,openssh,applist,com.kidsauto.locationchanger
-Conflicts: vn.gsm.locationfaker8,com.yourepo.dviet92.xcon,vn.gsm.xcon,com.n00neimp0rtant.xcon,com.yourepo.cml.locationfakerios89,com.yourepo.cml.xcon,com.yourepo.cml.hookkeyboard,com.yourepo.cml.hookkeyboardver2,com.rbt.useragentchanger
-
-Package: com.kidsauto.kidsdaemon
-Name: KidsAuto 8.2
-Version: 8.2
-Architecture: iphoneos-arm
-Description: KidsAuto iOS Update 18/07/2019, Support from version 11 - 12.2
-Author: KidsAuto - CuongTran <kidsauto11@gmail.com>
-Maintainer: Dev by Tue Mobi
-Section: System
-Tag: role::hacker
-Filename: ./Debs/KidsAuto82.deb
-Size: 1906568
-MD5sum: fc763be304e32dddc9b8395bdcc318fe
-Depends: com.conradkramer.open,zip,unzip,ws.hbang.repower,rsync,jetslammed,socat,sudo,com.cydiageek.coysim,preferenceloader,com.rpetrich.rocketbootstrap,openssh,applist,com.kidsauto.locationchanger
-Conflicts: vn.gsm.locationfaker8,com.yourepo.dviet92.xcon,vn.gsm.xcon,com.n00neimp0rtant.xcon,com.yourepo.cml.locationfakerios89,com.yourepo.cml.xcon,com.yourepo.cml.hookkeyboard,com.yourepo.cml.hookkeyboardver2,com.rbt.useragentchanger
-
-Package: com.kidsauto.kidsdaemon
 Name: KidsAuto 8.2.1
 Version: 8.2.1
 Architecture: iphoneos-arm
@@ -88,6 +43,22 @@ Tag: role::hacker, compatible::ios10, compatible::ios11, compatible::ios12
 Filename: ./Debs/KidsAuto831.deb
 Size: 1773092
 MD5sum: 4ed5574733e9449844edc67add35385c
+Depends: com.conradkramer.open,zip,unzip,ws.hbang.repower,rsync,jetslammed,socat,sudo,com.cydiageek.coysim,preferenceloader,com.rpetrich.rocketbootstrap,openssh,applist,com.kidsauto.kidsrestore,com.kidsauto.locationchanger
+Conflicts: vn.gsm.locationfaker8,com.yourepo.dviet92.xcon,vn.gsm.xcon,com.n00neimp0rtant.xcon,com.yourepo.cml.locationfakerios89,com.yourepo.cml.xcon,com.yourepo.cml.hookkeyboard,com.yourepo.cml.hookkeyboardver2,com.rbt.useragentchanger
+
+Package: com.kidsauto.kidsdaemon
+Name: KidsAuto 8.3.2
+Version: 8.3.2
+Architecture: iphoneos-arm
+Description: KidsAuto iOS Update 06/12/2019, Support from version 10.x - 12.2 & 12.4
+Author: KidsAuto - Cường Trần <https://www.facebook.com/kidsauto91>
+Homepage: https://www.facebook.com/groups/1356112074493442
+Maintainer: Dev by TueMobi
+Section: System
+Tag: role::hacker, compatible::ios10, compatible::ios11, compatible::ios12
+Filename: ./Debs/KidsAuto832.deb
+Size: 1776300
+MD5sum: 8d42084abc4b7c361bc948eba3be6776
 Depends: com.conradkramer.open,zip,unzip,ws.hbang.repower,rsync,jetslammed,socat,sudo,com.cydiageek.coysim,preferenceloader,com.rpetrich.rocketbootstrap,openssh,applist,com.kidsauto.kidsrestore,com.kidsauto.locationchanger
 Conflicts: vn.gsm.locationfaker8,com.yourepo.dviet92.xcon,vn.gsm.xcon,com.n00neimp0rtant.xcon,com.yourepo.cml.locationfakerios89,com.yourepo.cml.xcon,com.yourepo.cml.hookkeyboard,com.yourepo.cml.hookkeyboardver2,com.rbt.useragentchanger
 
@@ -232,33 +203,6 @@ MD5sum: 7cad10e48110ea6ac38143a96897bc58
 Depends: mobilesubstrate,com.kidsauto.kidsdaemon
 
 Package: com.kidsauto.jailbreakbypass
-Name: JailBreakByPass 1.1.9
-Version: 1.1.9
-Architecture: iphoneos-arm
-Description: Tweak Support for KidsAuto 8!
-Maintainer: Dev by TueMobi
-Author: KidsAuto iOS (https://www.facebook.com/kidsauto91)
-Section: Tweaks
-Filename: ./Debs/JailbreakBypass119.deb
-Size: 13812
-MD5sum: 453873c032eaa73be06ef34f952a9977
-Depends: mobilesubstrate,com.kidsauto.kidsdaemon
-
-Package: com.kidsauto.jailbreakbypass
-Name: JailBreakByPass 1.2
-Version: 1.2
-Architecture: iphoneos-arm
-Description: Tweak Support for KidsAuto 8!
-Maintainer: Dev by TueMobi
-Author: KidsAuto iOS (https://www.facebook.com/kidsauto91)
-Section: Tweaks
-Filename: ./Debs/JailBreakByPass12.deb
-Size: 18924
-MD5sum: acc0fd9531e80c95e3d1983741d509c8
-Depends: mobilesubstrate,com.kidsauto.kidsdaemon
-Conflicts: com.nablac0d3.sslkillswitch,com.nablac0d3.sslkillswitch2,com.kidsauto.sslkillswitch,com.isecpartners.nabla.sslkillswitch
-
-Package: com.kidsauto.jailbreakbypass
 Name: JailBreakByPass 1.2.1
 Version: 1.2.1
 Architecture: iphoneos-arm
@@ -346,3 +290,41 @@ Size: 100508
 MD5sum: 80531df442ecc3ae815a5720734cb9d1
 Depends: mobilesubstrate,preferenceloader,ws.hbang.common,com.kidsauto.kidsdaemon (>= 8.3)
 Conflicts: com.kidsauto.kidsdaemon (<< 8.3)
+
+Package: com.matchstic.reprovision
+Name: ReProvision
+Version: 0.5~experimental8
+Architecture: iphoneos-arm
+Author: Matt Clarke <matt@incendo.ws>
+dev: Matt Clarke <matt@incendo.ws>
+Maintainer: Matt Clarke <matt@incendo.ws>
+Homepage: https://github.com/Matchstic/Extender-Installer
+Depiction: http://incendo.ws/repo/depictions/com.matchstic.reprovision.html
+Icon: file:///Applications/ReProvision.app/AppIcon60x60@2x.png
+Description: Re-Sign applications on your iDevice
+Priority: optional
+Replaces: com.matchstic.Extender-Installer
+Provides: com.matchstic.Extender-Installer
+Section: Utilities
+Filename: ./Debs/ReProvision0.5_8.deb
+Size: 14258288
+MD5sum: 2daba5322db07a6255ffad259324fdfc
+Depends: firmware (>= 9.0)
+
+Package: me.jjolano.shadow
+Name: Shadow
+Version: 2.0.20
+Architecture: iphoneos-arm
+Author: jjolano <jjolano@me.com>
+Maintainer: jjolano <jjolano@me.com>
+Depiction: https://ios.jjolano.me/depiction/web/me.jjolano.shadow.html
+SileoDepiction: https://ios.jjolano.me/depiction/native/me.jjolano.shadow.json
+ModernDepiction: https://ios.jjolano.me/depiction/native/me.jjolano.shadow.json
+Icon: https://ios.jjolano.me/assets/me.jjolano.shadow/icon.png
+Description: A lightweight general Jailbreak Detection bypass.
+Homepage: https://shuga.co/
+Section: Tweaks
+Filename: ./Debs/Shadow2.0.2.deb
+Size: 250068
+MD5sum: 247488a393bb3504b209a1d5696b95a5
+Depends: firmware (>=8.0), mobilesubstrate, ws.hbang.common, applist, preferenceloader
