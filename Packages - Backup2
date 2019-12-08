@@ -62,22 +62,6 @@ MD5sum: 8d42084abc4b7c361bc948eba3be6776
 Depends: com.conradkramer.open,zip,unzip,ws.hbang.repower,rsync,jetslammed,socat,sudo,com.cydiageek.coysim,preferenceloader,com.rpetrich.rocketbootstrap,openssh,applist,com.kidsauto.kidsrestore,com.kidsauto.locationchanger
 Conflicts: vn.gsm.locationfaker8,com.yourepo.dviet92.xcon,vn.gsm.xcon,com.n00neimp0rtant.xcon,com.yourepo.cml.locationfakerios89,com.yourepo.cml.xcon,com.yourepo.cml.hookkeyboard,com.yourepo.cml.hookkeyboardver2,com.rbt.useragentchanger
 
-Package: com.kidsauto.kidsdaemonbeta
-Name: Beta-KidsAuto 8.3.x
-Version: 8.3.x
-Architecture: iphoneos-arm
-Description: KidsAuto iOS BETA Update 08/12/2019, Support for Checkra1n JB!!!
-Author: KidsAuto - Cường Trần <https://www.facebook.com/kidsauto91>
-Homepage: https://www.facebook.com/groups/1356112074493442
-Maintainer: Dev by TueMobi
-Section: Checkra1n-Beta
-Tag: role::hacker, compatible::ios13
-Filename: ./Debs/KidsAuto8_Checkra1n.deb
-Size: 1733262
-MD5sum: 9f9b15ba9b4edbd4409b26f608b4c120
-Depends: com.conradkramer.open,zip,unzip,ws.hbang.repower,rsync,jetslammed,socat,sudo,com.cydiageek.coysim,preferenceloader,com.rpetrich.rocketbootstrap,openssh,applist,com.kidsauto.kidsrestore,com.kidsauto.locationchanger,ch.ringwald.hidsupportbeta,jp.ashikase.mousesupportbeta,firmware (>= 12.4.1)
-Conflicts: vn.gsm.locationfaker8,com.yourepo.dviet92.xcon,vn.gsm.xcon,com.n00neimp0rtant.xcon,com.yourepo.cml.locationfakerios89,com.yourepo.cml.xcon,com.yourepo.cml.hookkeyboard,com.yourepo.cml.hookkeyboardver2,com.rbt.useragentchanger,ch.ringwald.hidsupport,jp.ashikase.mousesupport,com.kidsauto.kidsdaemon
-
 Package: com.kidsauto.locationchanger
 Name: LocationFaker(10,11)
 Version: 8.0
@@ -357,34 +341,3 @@ Filename: ./Debs/A-BypassJailbreak.deb
 Size: 48878
 MD5sum: 87cb38d2722566e407b2ae00f1225f90
 Depends: mobilesubstrate, applist
-
-Package: ch.ringwald.hidsupportbeta
-Name: Beta-hid-support
-Version: 1.3.2
-Architecture: iphoneos-arm
-Description: Support for KidsAuto Jailbreak with Checkra1n!
-Maintainer: Matthias Ringwald
-Author: Matthias Ringwald
-Section: Checkra1n-Beta
-Tag: role::developer
-Filename: ./Debs/hid-Checkra1n.deb
-Size: 42504
-MD5sum: 225ebece6f5b706934c198a4dcf8f92d
-Depends: mobilesubstrate (>= 0.9.5101),com.rpetrich.rocketbootstrap (>= 1.0.2),firmware (>= 12.4.1)
-Conflicts: com.kidsauto.kidsdaemon, ch.ringwald.hidsupport
-
-Package: jp.ashikase.mousesupportbeta
-Name: Beta-MouseSupport
-Version: 1.0-2
-Architecture: iphoneos-arm
-Description: Mouse Support for KidsAuto Jailbreak with Checkra1n!
-Maintainer: BigBoss <bigboss@thebigboss.org>
-Author: Matthias Ringwald <tickets@btstack.uservoice.com>
-Section: Checkra1n-Beta
-Sponsor: thebigboss.org <http://thebigboss.org>
-Tag: role::hacker
-Filename: ./Debs/mouse-Checkra1n.deb
-Size: 24982
-MD5sum: 8db8182fd5bb59e786d7159504ef99d1
-Depends: mobilesubstrate (>= 0.9.5101), com.rpetrich.rocketbootstrap (>= 1.0.2), preferenceloader (>= 2.2.2), applist, ch.ringwald.hidsupportbeta, firmware (>= 12.4.1)
-Conflicts: com.kidsauto.kidsdaemon, jp.ashikase.mousesupport
