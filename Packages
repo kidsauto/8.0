@@ -217,7 +217,7 @@ Conflicts: com.nablac0d3.sslkillswitch,com.nablac0d3.sslkillswitch2,com.kidsauto
 
 Package: com.kidsauto.kidsdeviceinfo
 Name: KidsDeviceInfo
-Version: 0.1
+Version: 0.2
 Architecture: iphoneos-arm
 Description: KidsAuto iOS Plugins!
 Author: KidsAuto - Cường Trần <https://www.facebook.com/kidsauto91>
