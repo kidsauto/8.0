@@ -225,9 +225,9 @@ Homepage: https://www.facebook.com/groups/1356112074493442
 Maintainer: Developer by Tuệ Mobile
 Section: Plugins
 Tag: role::hacker, compatible::ios10, compatible::ios11, compatible::ios12
-Filename: ./Debs/KidsDeviceinf.deb
-Size: 20536
-MD5sum: 89e49f25256bd2a42fb3cec5f98e042b
+Filename: ./Debs/KidsDeviceInf.deb
+Size: 23616
+MD5sum: 121cdfb68f638c7488402ab1e786c084
 Depends: mobilesubstrate,preferenceloader,openssh,applist
 Conflicts: com.kidsauto.kidsdaemon (<< 8.4)
 
