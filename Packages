@@ -247,6 +247,22 @@ MD5sum: 121cdfb68f638c7488402ab1e786c084
 Depends: mobilesubstrate,preferenceloader,openssh,applist
 Conflicts: com.kidsauto.kidsdaemon (<< 8.4)
 
+Package: com.kidsauto.kidsdeviceinfo
+Name: KidsDeviceInfo
+Version: 0.3
+Architecture: iphoneos-arm
+Description: KidsAuto iOS Plugins!
+Author: KidsAuto - Cường Trần <https://www.facebook.com/kidsauto91>
+Homepage: https://www.facebook.com/groups/1356112074493442
+Maintainer: Developer by Tuệ Mobile
+Section: Plugins
+Tag: role::hacker, compatible::ios10, compatible::ios11, compatible::ios12
+Filename: ./Debs/KidsDeviceInf_0.3.deb
+Size: 23586
+MD5sum: b51e770f7f3ea2dd39adecbac5f683f1
+Depends: mobilesubstrate,preferenceloader,openssh,applist
+Conflicts: com.kidsauto.kidsdaemon (<< 8.4)
+
 Package: com.kidsauto.kidsbypass
 Name: KidsByPass
 Version: 2.17
